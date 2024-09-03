@@ -8,6 +8,9 @@ package ModulPBOAbstrak;
  *
  * @author Bintang
  */
+//Interface mendefinisikan sebuah kontrak atau perjanjian yang harus diimplementasikan oleh kelas-kelas yang mengimplementasikannya.
+//interface Diskonable bertujuan untuk mendefinisikan sebuah metode tunggal, 
+//yaitu hitungDiskon(). Metode ini digunakan untuk menghitung besaran diskon yang akan diberikan untuk suatu produk.
 interface Diskonable {
     double hitungDiskon();
 }
